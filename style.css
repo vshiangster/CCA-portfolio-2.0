@@ -1,0 +1,116 @@
+body {
+  font-family: "Lato";
+  font-size: 1.2em;
+}
+#nav {
+  background-color: #fff;
+}
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+ul {
+  float: right;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  color: #565656;
+}
+
+#hero-image img {
+  max-width: 100%;
+}
+
+#about {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#portfolio {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+
+.indent {
+  text-indent: 2em;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  background-color: gainsboro;
+  color: black;
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  /* width: 40%; */
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.card p {
+  text-decoration: none;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.image-resize {
+    width: 400px;
+}
+
+
+.item {
+    border-color: blue;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: grid;
+    grid-template-columns: 500px 600px;
+}
+
+
+
+    .video-height {
+        height: 470px;
+        width: 700px;
+    }
+
+
+
+
+@media (max-width: 768px) { 
+
+}
+
