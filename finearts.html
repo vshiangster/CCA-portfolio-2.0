@@ -1,44 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <title>Vivian's Portfolio</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:300&display=swap"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      rel="stylesheet"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      crossorigin="anonymous"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300&display=swap" rel="stylesheet" type="text/css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
 
     <link rel="stylesheet" href="./style.css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <nav id="nav">
-      <img src="images/logo.png" width="300" />
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/#about">About</a></li>
-        <li><a href="/#portfolio">Portfolio</a></li>
-      </ul>
+        <img src="images/logo.png" width="300" />
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/#about">About</a></li>
+            <li><a href="/#portfolio">Portfolio</a></li>
+        </ul>
     </nav>
-   <h2 class="center-text">ART</h2>   
-    
-      <section id= 'firstphoto'>
-      <article class="item">
-    <img class="image-resize" src="images/16x9.jpg" />
-          
-      
-    <p class="indent">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean volutpat accumsan lorem, nec tristique ligula ultricies a. Integer rhoncus ut velit ut hendrerit. Proin eget augue vel eros tempus porttitor sit amet ac erat. Nullam non ex interdum, dictum neque eget, hendrerit purus. Ut euismod, metus eget hendrerit lobortis, velit nisl sollicitudin mauris, efficitur consequat elit nunc quis arcu. Vivamus at tristique ligula, interdum varius sem.
-    </p>
-             
-    </article>      
-          </section>
-      </body>
-</html>
+    <h2 class="center-text">ART</h2>
+
+    <section id='firstphoto'>
+        <article class="item">
+
+
+
+
+            <a href="#openModal-about">
+                <img class="content-image" src='images/16x9.jpg' />
+            </a>
+
+            <!--modals-->
+            <div id="openModal-about" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img class="modal-image" src='images/16x9.jpg' />
+                </div>
+            </div>
+
+            <p class="indent">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean volutpat accumsan lorem, nec tristique ligula ultricies a. Integer rhoncus ut velit ut hendrerit. Proin eget augue vel eros tempus porttitor sit amet ac erat. Nullam non ex interdum, dictum neque eget, hendrerit purus. Ut euismod, metus eget hendrerit lobortis, velit nisl sollicitudin mauris, efficitur consequat elit nunc quis arcu. Vivamus at tristique ligula, interdum varius sem.
+            </p>
+
+
+
+            <section id='secondphoto'>
+                <article class="item">
+                    <a href="#openModal-about">
+                        <img class="content-image" src='images/16x9.jpg' />
+                    </a>
+
+                    <!--modals-->
+                    <div id="openModal-about" class="modalDialog">
+                        <div>
+                            <a href="#close" title="Close" class="close">X</a>
+                            <img class="modal-image" src='images/16x9.jpg' />
+                        </div>
+                    </div>
+
+                    <p class="indent">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean volutpat accumsan lorem, nec tristique ligula ultricies a. Integer rhoncus ut velit ut hendrerit. Proin eget augue vel eros tempus porttitor sit amet ac erat. Nullam non ex interdum, dictum neque eget, hendrerit purus. Ut euismod, metus eget hendrerit lobortis, velit nisl sollicitudin mauris, efficitur consequat elit nunc quis arcu. Vivamus at tristique ligula, interdum varius sem.
+                    </p>
+
+                </article>
+
+            </section>
+
+        </article>
+    </section>
+</body></html>
