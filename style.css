@@ -54,6 +54,9 @@ li a:hover {
     text-indent: 2em;
 }
 
+.remove-text-decoration {
+    text-decoration: none;
+}
 footer {
     left: 0;
     bottom: 0;
